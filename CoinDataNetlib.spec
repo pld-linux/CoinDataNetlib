@@ -2,7 +2,7 @@ Summary:	COIN-OR Netlib models
 Summary(pl.UTF-8):	Modele Netlib z projektu COIN-OR
 Name:		CoinDataNetlib
 Version:	1.2.6
-Release:	1
+Release:	2
 License:	Eclipse Public License v1.0
 Group:		Libraries
 Source0:	http://www.coin-or.org/download/source/Data/Netlib-%{version}.tgz
