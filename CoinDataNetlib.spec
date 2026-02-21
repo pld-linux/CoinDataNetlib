@@ -2,7 +2,7 @@ Summary:	COIN-OR Netlib models
 Summary(pl.UTF-8):	Modele Netlib z projektu COIN-OR
 Name:		CoinDataNetlib
 Version:	1.2.9
-Release:	1
+Release:	2
 License:	Eclipse Public License v1.0
 Group:		Libraries
 Source0:	http://www.coin-or.org/download/source/Data/Data-Netlib-%{version}.tgz
@@ -23,7 +23,8 @@ Modele Netlib z projektu COIN-OR.
 %setup -q -n Data-Netlib-%{version}
 
 %build
-%configure
+%configure \
+	--build=i386-pld-linux
 
 %{__make}
 
